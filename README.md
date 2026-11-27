@@ -8,47 +8,56 @@
 
 <br>
 
-### 걸어온 길
+### 🧭 JOURNEY
 
 - **2026.07 – 2026.08** · 하나은행 AI/ICT 체험형 인턴 우수 수료자 선정
-- **2026.01 – 2026.06** · 삼성 청년 SW·AI 아카데미 15기 (1학기 이수)
+- **2026.01 – 2026.06** · 삼성 청년 SW·AI 아카데미 15기 1학기 이수
 - **2025.07 – 2025.08** · SK AI Dream Camp 중급 우수 학습자 선정
 - **2024.08 – 2025.02** · 네이버 부스트캠프 AI Tech 7기 NLP 트랙
 
 <br>
 
-### 프로젝트
+### 🗂️ PROJECTS
 
-#### AI 서비스
-
-| 레포 | 무엇을 만들었나 | 내가 맡은 일 |
-|---|---|---|
-| [**ai-math-coach**](https://github.com/suvinn/ai-math-coach)<br><sub>WIDN Math · SSAFY · 2026.05–06</sub> | 중2 수학 유형별 약점 분석, 보완 문제 추천, 풀이 챗봇 | 백엔드·데이터 전담 — 1,770문항 정제와 유형 분류, REST API, LangGraph 코칭·가드레일 챗봇, ChromaDB 유사 문제 추천 |
-| [**make-your-sports**](https://github.com/suvinn/make-your-sports)<br><sub>공공데이터 경진대회 출품 · 2026.09</sub> | 사주 오행과 자연어 조건으로 동네 공공체육 강좌 추천 | 서비스 구현 — 공공데이터 전처리, Claude API 조건 파싱(실패 시 규칙 기반으로 대체), Streamlit 화면 |
-| [**clovista**](https://github.com/suvinn/clovista)<br><sub>부스트캠프 × 네이버 클라우드 해커톤 · 2025.01–02</sub> | HyperCLOVA X 기반 인플루언서 지원 서비스 | 댓글 반응·논란 가능성 분석 모델 실험, 과거 논란 사례 유형화와 사례 제시 백엔드 |
-
-#### NLP 모델링 · 부스트캠프 AI Tech
-
-| 레포 | 무엇을 만들었나 | 내가 맡은 일 |
-|---|---|---|
-| [**boostcamp-ksat-solver**](https://github.com/suvinn/boostcamp-ksat-solver)<br><sub>2024.11</sub> | LLM 파인튜닝으로 한국어 수능 문제 풀기 | EDA, 외부 데이터 증강(KBS 한국어능력시험 · SAT history · KorQuAD), 사전학습 실험 |
-| [**boostcamp-datacentric**](https://github.com/suvinn/boostcamp-datacentric)<br><sub>2024.11</sub> | 모델은 그대로 두고 데이터만 고쳐 뉴스 헤드라인 주제 분류 성능 높이기 | LangChain + Gemma2 헤드라인 증강, Not Noisy 데이터 증강, Cleanlab 재라벨링 (부족한 라벨을 Gemma2 생성 데이터로 보충한 조합이 최고 성능) |
-| [**boostcamp-odqa**](https://github.com/suvinn/boostcamp-odqa)<br><sub>2024.10</sub> | 위키 문서 검색과 답 추출로 만든 오픈도메인 QA | Extraction Reader 학습, WandB Sweep 튜닝, 앙상블과 모델 간 상관관계 분석 |
-| [**boostcamp-sts**](https://github.com/suvinn/boostcamp-sts)<br><sub>2024.09</sub> | 두 문장의 의미 유사도(0–5) 예측 | 데이터 증강 — 다운샘플링, 문장 순서 교체, BERT 마스킹 삽입, 맞춤법 교정 (마스킹 삽입으로 Pearson 0.9232 → 0.9300) |
+| 기간 | 프로젝트명 | 주관 | 내용 |
+|---|---|---|---|
+| `2026.09` | [**사주 기반 공공체육 강좌 추천**](https://github.com/suvinn/make-your-sports) | 국민체육진흥공단 공공데이터 활용 경진대회 | 사주 오행과 자연어로 입력한 지역·요일·시간·예산 조건에 맞춰 동네 공공체육시설 강좌를 추천하는 웹 서비스 |
+| `2026.05 - 2026.06` | [**WIDN Math: 중학 수학 AI 코치**](https://github.com/suvinn/ai-math-coach) | 삼성 청년 SW·AI 아카데미 | 중2 수학 풀이 결과로 유형별 약점을 분석하고 보완 문제 추천과 풀이 챗봇을 제공하는 학습 서비스 |
+| `2025.01 - 2025.02` | [**CLOVISTA: 인플루언서 지원 AI 서비스**](https://github.com/suvinn/clovista) | 네이버 클라우드 기업연계 해커톤 | HyperCLOVA X로 채널 분석, 댓글 반응, 논란 가능성을 진단해 주는 인플루언서 지원 서비스 |
+| `2024.11` | [**수능형 문제풀이 모델**](https://github.com/suvinn/boostcamp-ksat-solver) | 네이버 커넥트재단 | 한국어 수능형 문제를 푸는 언어모델을 파인튜닝해 정확도를 높이는 대회 |
+| `2024.11` | [**뉴스기사 주제 분류 (Data-Centric)**](https://github.com/suvinn/boostcamp-datacentric) | 네이버 커넥트재단 | 노이즈와 라벨 오류가 섞인 뉴스 헤드라인 데이터를 고쳐 모델 수정 없이 주제 분류 성능을 높이는 대회 |
+| `2024.10` | [**오픈도메인 질의응답 (ODQA)**](https://github.com/suvinn/boostcamp-odqa) | 네이버 커넥트재단 | 위키 문서에서 관련 문단을 검색하고 답을 추출해 질문에 답하는 질의응답 모델 |
+| `2024.09` | [**문장 간 유사도 측정 (STS)**](https://github.com/suvinn/boostcamp-sts) | 네이버 커넥트재단 | 두 한국어 문장의 의미 유사도를 0~5점으로 예측하는 모델 |
 
 <br>
 
-### 기술
+### 🪪 CERTIFICATES
 
-| 분야 | 기술 | 써본 곳 |
+| 발급날짜 | 자격증 | 발급기관 |
 |---|---|---|
-| 백엔드 | Python · Django REST Framework · FastAPI · Streamlit · SQLite | ai-math-coach · clovista · make-your-sports |
-| LLM 서비스 | LangGraph · ChromaDB(RAG) · OpenAI API · Claude API · HyperCLOVA X | ai-math-coach · make-your-sports · clovista |
-| NLP 모델링 | PyTorch · Hugging Face Transformers · WandB · LangChain · Cleanlab | boostcamp-sts · boostcamp-odqa · boostcamp-datacentric · boostcamp-ksat-solver |
-| 협업 | Git · GitHub PR 리뷰 · Notion · Slack | morgorithm · 부스트캠프 팀 프로젝트 |
+| `2025.07.11` | **빅데이터분석기사** | 한국데이터산업진흥원 |
+| `2024.06.21` | **SQLD** | 한국데이터산업진흥원 |
+| `2024.06.18` | **정보처리기사** | 과학기술정보통신부 |
+| `2023.11.17` | **ADsP** | 한국데이터산업진흥원 |
 
 <br>
 
-### 스터디
+### 🛠 TECH STACKS
 
-- [**morgorithm**](https://github.com/suvinn/morgorithm) · SSAFY 서울 2반 알고리즘 스터디 (2026.03) — 매일 한 문제, 전원 승인 PR 코드 리뷰
+**Backend**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+
+**AI · LLM**
+
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" /> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" /> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph" /> <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge" alt="OpenAI API" /> <img src="https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude API" /> <img src="https://img.shields.io/badge/W%26B-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black" alt="Weights & Biases" />
+
+**Collaboration**
+
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" /> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge" alt="Slack" />
+
+<br>
+
+### 🧩 SOLVED.AC
+
+[![suvin6603's solved.ac stats](https://github-readme-solvedac.hyp3rflow.vercel.app/api/?handle=suvin6603)](https://solved.ac/profile/suvin6603)
